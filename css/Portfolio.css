@@ -16,7 +16,7 @@ html {
 
 nav ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 0.5rem;
     /*border: solid green;*/
@@ -55,8 +55,8 @@ a:hover {
 }
 
 nav .grow {
-    /*flex-grow: 1;*/
-    /*text-align: center;*/
+    flex-grow: 1;
+    text-align: center;
     display: none;
 }
 
@@ -276,7 +276,6 @@ footer {
     }
 
     nav ul {
-        display: flex;
         flex-direction: row;
         gap: 2rem;
         align-items: center;
