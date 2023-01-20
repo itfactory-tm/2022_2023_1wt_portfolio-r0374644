@@ -78,7 +78,10 @@ button:hover {
 }
 
 
-
+img {
+    width: 100%;
+    height: auto;
+}
 
 
 /*ICONS*/
@@ -149,7 +152,7 @@ h2 {
 
 .paragraaf2-item {
     border: solid orange;
-    padding: 10rem;
+    /*padding: 10rem;*/
 }
 
 .paragraaf2 {
