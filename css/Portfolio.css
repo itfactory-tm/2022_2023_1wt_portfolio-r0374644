@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: "Rubik", "Microsoft Sans Serif", serif;
     font-size: 14px;
@@ -6,126 +12,224 @@ html {
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*NAVBAR*/
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    /*border: solid green;*/
+    justify-content: center;
 }
 
-
-nav {
-    box-sizing: border-box;
-    margin-top: 0;
-    padding: 0;
-    overflow: clip;
+nav ul li {
+    text-align: center;
 }
 
 ul {
-    margin-top: 0;
-    padding: 0;
     list-style-type: none;
 }
 
-.flexbox-item4 {
-    margin-left: 50px;
-    margin-top: 0;
+#top {
+    position: relative;
+    /*border: 1px solid #000;*/
+    max-width: 1200px;
+    margin: 2rem auto 0 auto;
+    /*border: solid green;*/
+    justify-content: center;
 }
 
 
-.flexbox-item4:hover {
-    bottom: 0;
-    left: 0;
-    right: 0;
+a {
+    text-decoration: none;
+    color: dimgrey;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    transition: 0s;
     color: black;
-    background-color: white;
-    transition: underline;
+    font-weight: bold;
 }
 
-li a {
-    font-size: 14px;
-    text-transform: uppercase;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    padding: 2%;
+nav .grow {
+    /*flex-grow: 1;*/
+    /*text-align: center;*/
+    display: none;
+}
+
+nav .grow img {
+    width: 100px;
+    height: auto;
+}
+
+button {
+    border: none;
+    padding: 5px .5rem;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #fa6161;
+}
+
+
+
+
+
+/*ICONS*/
+
+#icons {
+    position: absolute;
+    top: -1rem;
+    right: -10rem;
+    display: flex;
+    gap: 0.5rem;
+    /*border: solid;*/
+    justify-content: right;
+}
+
+#icons a {
+    color: black;
+    font-size: 24px;
+}
+
+#icons a:hover {
+    transition: 2s;
     color: dimgrey;
-    text-decoration: none;
-    float: left;
-    margin-left: 50px;
-    margin-top: 0;
-}
-
-.flex-container {
-    flex-direction: row;
-    background-color: white;
-    height: 150px;
-    width: 100%;
-    text-align: center;
-}
-
-.flexbox-item1 {
-    justify-content: flex-start;
-    flex-direction: row;
-    width: 10%;
-    align-items: center;
-    background-color: transparent;
-    font-size: 14px;
-    text-transform: uppercase;
-    height: 18px;
-    padding: 2%;
-    color: dimgrey;
-    text-decoration: none;
-    float: left;
-    margin-left: 50px;
-    margin-top: 0;
-    transition: color 4s;
-}
-
-.flexbox-item1:hover {
-    transition: color 4s;
-    color: dimgrey;
+    cursor: pointer;
 }
 
 
-.flexbox-item2 {
-    position: center;
-    border: solid;
-    display: block;
-}
-
-.flexbox-item3 {
-    justify-content: flex-start;
-    float: right;
-    flex-direction: row-reverse;
-    width: 10%;
-    margin: 0;
-    padding: 10px;
-    background-color: transparent;
-}
-
+/*INDEX TEKST*/
 
 p {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 100px;
-    text-align: center;
-    font-size: 18px;
-    color: black;
+    text-align: justify;
+    overflow: hidden;
 }
 
-h1 {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 80px;
-    margin-left: 100px;
+.paragraaf1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-indent: 15px;
+    /*border: solid red;*/
+    margin-top: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1rem;
+
+}
+.paragraaf1 img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.paragraaf1 .tekst1 {
+    max-width: 800px;
+    /*border: solid salmon;*/
 }
 
 h2 {
     font-size: 30px;
-    text-align: center;
+    align-items: center;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 0;
+    /*border: solid green;*/
+    margin-left: 100px;
+    max-width: 600px;
+    /*justify-content: center;*/
+    padding: 1rem;
 }
+
+.paragraaf2-item {
+    border: solid orange;
+    padding: 10rem;
+}
+
+.paragraaf2 {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    justify-content: center;
+    background-color: lightblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    /*margin-top: 30px;*/
+    padding: 1rem;
+    align-items: center;
+    /*text-indent: 15px;*/
+}
+
+.paragraaf2-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid white;
+}
+
+.gepassioneerdlesgeversteam {
+    border: solid red;
+    max-width: 800px;
+    flex: 50%
+
+}
+
+
+.paragraaf3 {
+    border: solid dodgerblue ;
+    justify-content: center;
+    /*background-color: lightcoral;*/
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 70px;
+    padding: 1rem;
+    align-items: center;
+    text-indent: 15px;
+}
+
+.paragraaf4 {
+    /*border: solid;*/
+    justify-content: center;
+    /*background-color: lightgoldenrodyellow;*/
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    padding: 1rem;
+    align-items: center;
+    text-indent: 15px;
+}
+
+.paragraaf5 {
+    /*border: solid;*/
+    justify-content: center;
+    /*background-color: lightsteelblue;*/
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding: 1rem;
+    align-items: center;
+    text-indent: 15px;
+}
+
+.dansaanbod {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    text-indent: 15px;
+}
+
+.titeldans {
+    margin-left: 190px;
+}
+
 
 table, th, tr, td {
     border-collapse: separate;
@@ -137,29 +241,80 @@ table, th, tr, td {
 }
 
 th.dag {
-    background-color: rgba(47,219,45,0.27);
+    font-weight: bold;
+    background-color: rgba(47, 219, 45, 0.27);
 }
 
-.social-icon {
-    color: darkgrey;
-    font-size: 30px;
-    transition: color 1s;
-    float: right;
-    margin-right: 40px;
-    margin-top: 0;
-    flex-wrap: wrap;
-}
-
-.social-icon:hover {
-    color: black;
-    cursor: pointer;
+.button {
+    border: solid green;
 
 }
 
 footer {
-    border: solid dimgrey;
-    float: bottom;
-    position: center;
-    margin-bottom: 100px;
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+    background-color: dimgrey;
+    height: 200px;
+}
+
+.teams {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 1rem;
+    text-indent: 15px;
+}
+
+.teamstitel {
     align-items: center;
 }
+
+@media (min-width: 700px) {
+    body {
+        background-color: lightpink;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    nav .grow {
+        display: block;
+    }
+
+    #icons {
+        position: absolute;
+        top: -1rem;
+        right: -10rem;
+        display: flex;
+        gap: 0.5rem;
+        /*border: solid;*/
+    }
+
+    #icons {
+        position: absolute;
+        top: -1rem;
+        right: -10rem;
+        display: flex;
+        gap: 0.5rem;
+        /*border: solid;*/
+        justify-content: right;
+    }
+
+    #icons a {
+        color: black;
+        font-size: 24px;
+    }
+
+    #icons a:hover {
+        transition: 2s;
+        color: dimgrey;
+        cursor: pointer;
+    }
+}
+
+
