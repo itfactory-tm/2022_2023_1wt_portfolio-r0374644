@@ -74,7 +74,7 @@ nav .grow img {
 
 button {
     border: none;
-    padding: 5px .5rem;
+    padding: 5px 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: .5s;
@@ -93,8 +93,8 @@ button:hover {
     display: flex;
     position: absolute;
     top: 1rem;
-    right: 1rem;
-    gap: 0.2rem;
+    right: 0.5rem;
+    gap: 0.5rem;
     /*border: solid;*/
     justify-content: right;
 }
@@ -202,6 +202,10 @@ hr {
     transition: 2s;
     transform: scale(1.2);
     cursor: pointer;
+}
+
+.vakjestekst {
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -282,15 +286,117 @@ footer {
 .h2danssoort {
     font-size: 20px;
     text-transform: uppercase;
-    margin-left: 20px;
+    text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
     /*border: 3px solid green;*/
 }
 
 .dansaanbod {
-    margin-left: 20px;
+    margin: 0 20px 0 20px;
     /*border: 2px solid #b70ae7;*/
-    padding-bottom: 5rem;
+    text-indent: 10px;
+    padding: 0rem 1rem 3rem 1rem;
+
 
 }
+
+
+
+
+
+
+
+
+
+@media (min-width: 450px) {
+    body {
+        background-color: lightpink;
+    }
+
+
+    nav ul {
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        background-color: white;
+        color: dimgrey;
+        border-radius: 0;
+    }
+
+    ul li a {
+        color: dimgrey;
+    }
+
+    nav .grow {
+        display: block;
+    }
+
+    #icons {
+        position: absolute;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    #icons {
+        position: absolute;
+        top: 1rem;
+        right: 0.5rem;
+        display: flex;
+        gap: 0.5rem;
+        /*border: solid;*/
+        justify-content: right;
+    }
+
+    #icons a {
+        color: black;
+        font-size: 24px;
+    }
+
+    #icons a:hover {
+        transition: 1s;
+        color: dimgrey;
+        cursor: pointer;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+    }
+
+    button:hover {
+        background-color: white;
+        color: dimgrey;
+    }
+
+    .paragraaf1 {
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+
+    }
+
+    .tekst1 {
+        border: 1px solid green;
+        max-width: 700px;
+        font-size: 22px;
+
+    }
+
+    .paragraaf1 .logo  {
+        border: 1px solid black;
+        max-width: 300px;
+        margin: 10px 0 0 300px;
+
+    }
+
+
+
+
+
+
+
+}
+
+
