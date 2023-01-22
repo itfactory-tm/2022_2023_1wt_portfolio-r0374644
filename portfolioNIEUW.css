@@ -265,21 +265,43 @@ hr {
 footer {
     display: flex;
     color: whitesmoke;
-    align-items: center;
-    justify-content: space-between;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
     background-color: dimgrey;
     height: 150px;
+    border: 1px solid lawngreen;
 }
 
 .gegevens {
-    font-size: 10px;
-    padding: 0.5rem;
-    line-height: 1rem;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid yellow;
+    align-items: center;
+}
+
+.adres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid red;
+
 }
 
 .logodanssportvlaanderen {
-
+    border: 1px solid orange;
 }
+
+.persoonlijk {
+    /*display: flex;*/
+    border: 1px solid blueviolet;
+    padding: 0;
+    font-size: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    height: 40px;
+}
+
+
 
 /* tekstopmaak dansaanbod */
 
@@ -370,6 +392,31 @@ th.dag {
     font-weight: bold;
     background-color: rgba(47, 219, 45, 0.27);
 }
+
+.h1audities {
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 2rem;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.auditiesfoto {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    padding: 1rem 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
