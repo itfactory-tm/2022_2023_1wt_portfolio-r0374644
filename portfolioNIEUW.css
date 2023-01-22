@@ -165,6 +165,7 @@ hr {
 
 .paragraaf3 {
     /*border: 1px solid deeppink;*/
+    margin-top: 5rem;
 
 }
 
@@ -202,15 +203,23 @@ hr {
 }
 
 .paragraaf4 {
+    margin-top: 5rem;
 
 }
 
 .paragraaf4 .titel1 {
     /*border: 1px solid purple;*/
-    margin-top: 4rem;
+    margin-top: 10rem;
     text-transform: uppercase;
-    /*padding: 0.5rem;*/
+    padding: 0.5rem;
     text-align: center;
+}
+
+.tekstinvakjes {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 .paragraaf5 {
@@ -239,17 +248,19 @@ footer {
     display: flex;
     color: whitesmoke;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: dimgrey;
     height: 150px;
 }
 
 .gegevens {
-    text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     padding: 0.5rem;
+    line-height: 1rem;
+}
+
+.logodanssportvlaanderen {
 
 }
 
-.logodanssportvlaanderen
 
