@@ -164,15 +164,15 @@ hr {
 }
 
 .paragraaf3 {
-    border: 1px solid deeppink;
+    /*border: 1px solid deeppink;*/
 
 }
 
 .paragraaf3 .titel1 {
     border: 1px solid purple;
-    margin-top: 0;
+    margin-top: 4rem;
     text-transform: uppercase;
-    padding: 0.5rem;
+    /*padding: 0.5rem;*/
     text-align: center;
 }
 
@@ -181,7 +181,7 @@ hr {
     border: 1px solid green;
     margin: 0.5rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 120px 120px;
+    grid-template-rows: 120px;
     gap: 0.5rem;
     align-items: center;
 }
@@ -197,6 +197,19 @@ hr {
 
 .vakjes:hover {
     transition: 1s;
-    transform: scale(1.5);
+    transform: scale(1.2);
     cursor: pointer;
 }
+
+.paragraaf4 {
+
+}
+
+.paragraaf4 .titel1 {
+    border: 1px solid purple;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    /*padding: 0.5rem;*/
+    text-align: center;
+}
+
