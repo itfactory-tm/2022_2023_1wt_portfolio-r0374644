@@ -265,17 +265,18 @@ hr {
 footer {
     display: flex;
     color: whitesmoke;
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
+    align-items: center;
+    justify-content: space-between;
     background-color: dimgrey;
     height: 150px;
-    border: 1px solid lawngreen;
+    /*border: 1px solid lawngreen;*/
+    border-radius: 0.5rem;
 }
 
 .gegevens {
     display: flex;
     flex-direction: row;
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     align-items: center;
 }
 
@@ -283,17 +284,20 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    font-size: 10px;
+    margin-left: 30px;
 
 }
 
 .logodanssportvlaanderen {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
+    margin-right: 10px;
 }
 
 .persoonlijk {
     /*display: flex;*/
-    border: 1px solid blueviolet;
+    /*border: 1px solid blueviolet;*/
     padding: 0;
     font-size: 10px;
     justify-content: center;
@@ -408,14 +412,50 @@ th.dag {
     padding: 1rem 0 50px;
 }
 
+.h1team {
+    font-size: 28px;
+    text-align: center;
+    padding: 2rem;
+}
 
+.jeddagroteam2023 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
 
+.teams {
+    margin: 0 20px 0 20px;
+    padding-top: 1rem;
+}
 
+.teamstitel {
+    font-size: 20px;
+    text-align: center;
+    padding: 2rem;
+}
 
+.vast {
+    font-size: 20px;
+    text-align: center;
+    padding: 0.5rem;
 
+}
 
+.lesgevers {
+    margin: 1rem;
+}
 
+.assistenten {
+    font-size: 20px;
+    text-align: center;
+    padding: 0.5rem;
 
+}
+
+.Maya-Lotte-Fenne {
+    margin: 1rem;
+}
 
 
 
