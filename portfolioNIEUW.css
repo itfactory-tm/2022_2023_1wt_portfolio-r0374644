@@ -180,7 +180,11 @@ hr {
 .vierkant {
     display: grid;
     /*border: 1px solid green;*/
-    margin: 2em;
+    margin-top: 0.25rem;
+    margin-right: 1rem;
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 120px;
     gap: 0.5rem;
@@ -194,7 +198,8 @@ hr {
     grid-row: span 1;
     align-items: center;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem 1rem;
+    justify-items: stretch;
 
 }
 
@@ -202,25 +207,32 @@ hr {
     transition: 2s;
     transform: scale(1.2);
     cursor: pointer;
+    height: auto;
 }
 
-.vakjestekst {
+.paragraaf3 .vierkant .tekstinvakjes {
     text-transform: uppercase;
-    text-align: center;
+    font-size: 18px;
 }
 
 .paragraaf4 {
     margin-top: 10rem;
-
 }
 
-.paragraaf4 .titel1 {
-    /*border: 1px solid purple;*/
-    margin-top: 6rem;
+
+.paragraaf4 .vierkant. tekstinvakjes {
     text-transform: uppercase;
-    padding: 0.5rem;
-    text-align: center;
+    font-size: 18px;
 }
+
+
+/*.paragraaf4 .titel1 {*/
+/*    !*border: 1px solid purple;*!*/
+/*    margin-top: 6rem;*/
+/*    text-transform: uppercase;*/
+/*    padding: 0.5rem;*/
+/*    text-align: center;*/
+/*}*/
 
 .tekstinvakjes {
     text-transform: uppercase;
@@ -296,11 +308,14 @@ footer {
     margin: 0 20px 0 20px;
     /*border: 2px solid #b70ae7;*/
     text-indent: 10px;
-    padding: 0rem 1rem 3rem 1rem;
-
+    padding: 0 1rem 3rem 1rem;
 
 }
 
+.dansaanbodfoto {
+
+    /*margin: 10px 40px 10px 40px;*/
+}
 
 
 
