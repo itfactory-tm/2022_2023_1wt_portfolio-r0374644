@@ -289,9 +289,7 @@ footer {
     font-size: 28px;
     text-transform: uppercase;
     padding: 2rem;
-
     text-align: center;
-    justify-content: center;
     /*border: 1px solid red;*/
 }
 
@@ -301,6 +299,8 @@ footer {
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     /*border: 3px solid green;*/
 }
 
@@ -312,14 +312,64 @@ footer {
 
 }
 
-.dansaanbodfoto {
-
-    /*margin: 10px 40px 10px 40px;*/
+.fotocontainer {
+    display: flex;
+    /*border: 1px solid black;*/
+    margin: 1rem;
 }
 
 
+.dansaanbodfoto {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    padding: 0 0 50px;
+}
+
+/*tekstopmaak lesrooster*/
+
+.h1lesrooster {
+    font-size: 28px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.h1tekst {
+    margin: 0 20px 0 20px;
+}
+
+.h2lesrooster {
+    font-size: 20px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.h2tekst {
+    margin: 0 20px 0 20px;
+    padding: 1rem;
+}
 
 
+/*table*/
+
+.tabel {
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+
+table, th, tr, td {
+    border-collapse: separate;
+    color: black;
+    width: 50%;
+    margin: auto;
+    border-spacing: 0;
+    border: 1px solid dimgrey;
+}
+
+th.dag {
+    font-weight: bold;
+    background-color: rgba(47, 219, 45, 0.27);
+}
 
 
 
