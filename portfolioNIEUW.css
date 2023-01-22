@@ -104,11 +104,11 @@ button:hover {
     font-size: 20px;
 }
 
-#icons a:hover {
-    transition: 1s;
-    transform: scale(1.5);
-    cursor: pointer;
-}
+/*#icons a:hover {*/
+/*    transition: 1s;*/
+/*    transform: scale(1.5);*/
+/*    cursor: pointer;*/
+/*}*/
 
 /*tekstopmaak index*/
 
@@ -180,7 +180,7 @@ hr {
 .vierkant {
     display: grid;
     /*border: 1px solid green;*/
-    margin: 0.5rem;
+    margin: 2em;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 120px;
     gap: 0.5rem;
@@ -194,22 +194,25 @@ hr {
     grid-row: span 1;
     align-items: center;
     display: grid;
+    gap: 1rem;
+
 }
 
 .vakjes:hover {
-    transition: 1s;
+    transition: 2s;
     transform: scale(1.2);
     cursor: pointer;
+    text-align: center;
 }
 
 .paragraaf4 {
-    margin-top: 5rem;
+    margin-top: 10rem;
 
 }
 
 .paragraaf4 .titel1 {
     /*border: 1px solid purple;*/
-    margin-top: 10rem;
+    margin-top: 6rem;
     text-transform: uppercase;
     padding: 0.5rem;
     text-align: center;
@@ -229,7 +232,7 @@ hr {
 
 .paragraaf5 .titel1 {
     /*border: 1px solid purple;*/
-    margin-top: 4rem;
+    margin-top: 6rem;
     margin-bottom: 0;
     text-transform: uppercase;
     /*padding: 0.5rem;*/
@@ -238,10 +241,9 @@ hr {
 
 .video {
     justify-items: center;
-    padding: 0;
     padding-bottom: 50px;
-
-}
+    border-radius: 10px;
+   }
 
 /*footer*/
 footer {
