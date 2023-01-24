@@ -40,6 +40,7 @@ nav ul {
     padding: 1rem;
     border: 2rem;
     border-radius: 0.5rem;
+    margin: auto;
 }
 
 nav ul li {
@@ -93,10 +94,11 @@ button:hover {
     display: flex;
     position: absolute;
     top: 1rem;
-    right: 0.5rem;
-    gap: 0.5rem;
+    left: 1rem;
+    gap: 0.25rem;
     /*border: solid;*/
     justify-content: right;
+    width: auto;
 }
 
 #icons a {
@@ -126,8 +128,8 @@ hr {
 }
 
 .paragraaf1 {
-    /*border: 1px solid red;*/
-    margin: 0 0.5rem 0 0.5rem;
+    border: 1px solid red;
+    margin: 0 2rem 0 2rem;
 }
 
 .paragraaf1 .logo {
@@ -144,27 +146,29 @@ hr {
 }
 
 .paragraaf2 {
-    border: 1px solid lightgrey;
+    /*border: 1px solid green;*/
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px grey;
     text-align: center;
     /*margin-top: 4rem;*/
-    margin: 3rem 0.5rem 3rem 0.5rem;
+    margin: 3rem 2rem 3rem 2rem;
     padding: 6rem 0 6rem 0;
 }
 
 .paragraaf2 .teamfoto {
     /*border: 1px solid green;*/
-    max-width: 300px;
+    max-width: 310px;
     border-radius: 0.5rem;
     text-align: center;
+    padding: 0;
 }
 
 .paragraaf2 .titel1 {
     /*border: 1px solid blue;*/
-    margin-top: 0;
+    margin: 0 30px 0 30px;
     text-transform: uppercase;
     padding: 0.5rem;
+
 }
 
 
@@ -172,8 +176,7 @@ hr {
 
 .paragraaf3 {
     /*border: 1px solid deeppink;*/
-    background-color: gray;
-    margin: 3rem 0.5rem 3rem 0.5rem;
+    margin: 5rem 2rem 5rem 2rem;
     padding: 6rem 0 6rem 0;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px grey; rgba(128, 128, 128, 0.43);
@@ -182,6 +185,7 @@ hr {
 .paragraaf3 .tekstinvakjes {
     text-align: center;
     text-transform: uppercase;
+    margin: 0 30px 0 30px;
 }
 
 .vierkant {
@@ -192,7 +196,7 @@ hr {
     /*margin-bottom: 0.25rem;*/
     /*margin-left: 1rem;*/
     gap: 0.5rem;
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 2rem 0 2rem;
 
 
 
@@ -226,7 +230,7 @@ hr {
     border: 1px solid lightgrey;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px grey;
-    margin: 3rem 0.5rem 3rem 0.5rem;
+    margin: 3rem 2rem 3rem 2rem;
     padding: 6rem 0 6rem 0;
 }
 
@@ -235,6 +239,7 @@ hr {
 .paragraaf4 .tekstinvakjes {
     text-align: center;
     text-transform: uppercase;
+    margin: 1.5rem 30px 1.5rem 30px;
 }
     /*text-transform: uppercase;*/
     /*text-align: center;*/
@@ -257,7 +262,7 @@ hr {
 
 .paragraaf5 {
     /*border: 1px solid purple;*/
-    margin: 0.5rem;
+    margin: 1.5rem;
 }
 
 .paragraaf5 .titel1 {
@@ -278,6 +283,7 @@ hr {
 
 
 /*footer*/
+
 
 .persoonlijk {
     /*border: 1px solid black;*/
@@ -329,10 +335,10 @@ hr {
 
 /*}*/
 
-/*.logodanssportvlaanderen {*/
-/*    !*border: 1px solid orange;*!*/
-/*    margin-right: 10px;*/
-/*}*/
+.logodanssportvlaanderen {
+    /*border: 1px solid orange;*/
+    margin-right: 50px;
+}
 
 /*.persoonlijk {*/
 /*    !*display: flex;*!*/
@@ -509,11 +515,10 @@ th.dag {
     }
 
     .paragraaf1 {
-        /*border: 1px solid red;*/
+        /*border: 5px solid red;*/
         display: flex;
         flex-direction: row;
-        padding: 0;
-        margin-top: 2rem;
+        padding: 0.5rem;
 
     }
 
@@ -522,7 +527,8 @@ th.dag {
         max-width: 800px;
         font-size: 22px;
         margin: auto;
-        line-height: 2;
+        line-height: 1.5;
+
 
     }
 
