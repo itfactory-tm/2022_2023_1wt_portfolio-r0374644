@@ -296,8 +296,6 @@ hr {
 
 .adres {
     font-size: 8px;
-    /*justify-content: flex-start;*/
-    /*align-items: center;*/
     align-content: center;
     color: white;
     /*border: 1px solid green;*/
@@ -503,7 +501,40 @@ th.dag {
 
 
 
-@media (min-width: 400px) {
+@media (min-width: 600px) {
+
+    body {
+        /*background-color: rgba(140,45,202,0.27);*/
+        margin: 0 200px;
+    }
+
+    .paragraaf1 {
+        /*border: 1px solid red;*/
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin-top: 2rem;
+
+    }
+
+    .tekst1 {
+        /*border: 1px solid green;*/
+        max-width: 800px;
+        font-size: 22px;
+        margin: auto;
+        line-height: 2;
+
+    }
+
+    .logo  {
+        /*border: 1px solid yellow;*/
+        max-width: 300px;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+
 
     .vierkant {
         display: grid;
@@ -534,20 +565,6 @@ th.dag {
         cursor: pointer;
         height: auto;
     }
-
-
-
-}
-
-
-
-
-
-@media (min-width: 700px) {
-    body {
-        background-color: lightpink;
-    }
-
 
     nav ul {
         flex-direction: row;
@@ -601,28 +618,6 @@ th.dag {
     button:hover {
         background-color: white;
         color: dimgrey;
-    }
-
-    .paragraaf1 {
-        border: 1px solid blue;
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-
-    }
-
-    .tekst1 {
-        border: 1px solid green;
-        max-width: 700px;
-        font-size: 22px;
-
-    }
-
-    .paragraaf1 .logo  {
-        border: 1px solid black;
-        max-width: 300px;
-        margin: 10px 0 0 300px;
-
     }
 
 
