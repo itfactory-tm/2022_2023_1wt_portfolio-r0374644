@@ -144,11 +144,13 @@ hr {
 }
 
 .paragraaf2 {
-    /*border: 1px solid brown;*/
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px grey;
     text-align: center;
     /*margin-top: 4rem;*/
-    padding: 1rem;
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 3rem 0.5rem 3rem 0.5rem;
+    padding: 6rem 0 6rem 0;
 }
 
 .paragraaf2 .teamfoto {
@@ -173,8 +175,8 @@ hr {
     background-color: gray;
     margin: 3rem 0.5rem 3rem 0.5rem;
     padding: 6rem 0 6rem 0;
-    /*border: 1px solid orange;*/
     border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px grey; rgba(128, 128, 128, 0.43);
 }
 
 .paragraaf3 .tekstinvakjes {
@@ -221,8 +223,11 @@ hr {
 
 
 .paragraaf4 {
-    /*border: 1px solid lightslategray;*/
-    margin: 4rem 0.5rem 4rem 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px grey;
+    margin: 3rem 0.5rem 3rem 0.5rem;
+    padding: 6rem 0 6rem 0;
 }
 
 
@@ -268,52 +273,78 @@ hr {
     padding: 0.5rem 0.5rem 50px 0.5rem;
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
    }
 
 
 /*footer*/
-footer {
-    display: flex;
-    color: whitesmoke;
-    align-items: center;
-    justify-content: space-between;
-    background-color: dimgrey;
-    height: 150px;
-    /*border: 1px solid lawngreen;*/
-    border-radius: 0.5rem;
+
+.persoonlijk {
+    /*border: 1px solid black;*/
+    text-align: center;
+    font-size: 8px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
 
 .gegevens {
+    /*border: 1px solid black;*/
+    background-color: dimgrey;
     display: flex;
-    flex-direction: row;
-    /*border: 1px solid yellow;*/
-    align-items: center;
-}
+    /*justify-content: center;*/
+    }
 
 .adres {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /*border: 1px solid red;*/
-    font-size: 10px;
-    margin-left: 30px;
-
+    font-size: 8px;
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    align-content: center;
+    color: white;
+    /*border: 1px solid green;*/
+    line-height: 1.5;
+    margin: auto;
+    padding: 1rem;
 }
+/*    color: whitesmoke;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    background-color: dimgrey;*/
+/*    height: 150px;*/
+/*    !*border: 1px solid lawngreen;*!*/
+/*    border-radius: 0.5rem;*/
+/*}*/
 
-.logodanssportvlaanderen {
-    /*border: 1px solid orange;*/
-    margin-right: 10px;
-}
+/*.gegevens {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    !*border: 1px solid yellow;*!*/
+/*    align-items: center;*/
+/*}*/
 
-.persoonlijk {
-    /*display: flex;*/
-    /*border: 1px solid blueviolet;*/
-    padding: 0;
-    font-size: 10px;
-    justify-content: center;
-    align-items: flex-end;
-    height: 40px;
-}
+/*.adres {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    !*border: 1px solid red;*!*/
+/*    font-size: 10px;*/
+/*    margin-left: 30px;*/
+
+/*}*/
+
+/*.logodanssportvlaanderen {*/
+/*    !*border: 1px solid orange;*!*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.persoonlijk {*/
+/*    !*display: flex;*!*/
+/*    !*border: 1px solid blueviolet;*!*/
+/*    padding: 0;*/
+/*    font-size: 10px;*/
+/*    justify-content: center;*/
+/*    align-items: flex-end;*/
+/*    height: 40px;*/
+/*}*/
 
 
 
