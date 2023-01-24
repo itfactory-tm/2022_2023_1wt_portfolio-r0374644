@@ -127,6 +127,7 @@ hr {
 
 .paragraaf1 {
     /*border: 1px solid red;*/
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .paragraaf1 .logo {
@@ -143,10 +144,11 @@ hr {
 }
 
 .paragraaf2 {
-    /*border: 1px solid orange;*/
+    /*border: 1px solid brown;*/
     text-align: center;
-    margin-top: 4rem;
+    /*margin-top: 4rem;*/
     padding: 1rem;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .paragraaf2 .teamfoto {
@@ -163,32 +165,39 @@ hr {
     padding: 0.5rem;
 }
 
+
+
+
 .paragraaf3 {
     /*border: 1px solid deeppink;*/
-    margin-top: 5rem;
-
+    background-color: gray;
+    margin: 3rem 0.5rem 3rem 0.5rem;
+    padding: 6rem 0 6rem 0;
+    /*border: 1px solid orange;*/
+    border-radius: 0.5rem;
 }
 
-.paragraaf3 .titel1 {
-    /*border: 1px solid purple;*/
-    margin-top: 4rem;
-    text-transform: uppercase;
-    /*padding: 0.5rem;*/
+.paragraaf3 .tekstinvakjes {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .vierkant {
     display: grid;
     /*border: 1px solid green;*/
-    margin-top: 0.25rem;
-    margin-right: 1rem;
-    margin-bottom: 0.25rem;
-    margin-left: 1rem;
-
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 120px;
+    /*margin-top: 0.25rem;*/
+    /*margin-right: 1rem;*/
+    /*margin-bottom: 0.25rem;*/
+    /*margin-left: 1rem;*/
     gap: 0.5rem;
-    align-items: center;
+    margin: 0 0.5rem 0 0.5rem;
+
+
+
+/*    grid-template-columns: repeat(2, 1fr);*/
+/*    grid-template-rows: 120px;*/
+/*    gap: 0.5rem;*/
+/*    align-items: center;*/
 }
 
 
@@ -198,68 +207,69 @@ hr {
     grid-row: span 1;
     align-items: center;
     display: grid;
-    gap: 0.5rem 1rem;
+    gap: 2rem;
     justify-items: stretch;
 
 }
 
-.vakjes:hover {
-    transition: 2s;
-    transform: scale(1.2);
-    cursor: pointer;
-    height: auto;
-}
-
-.paragraaf3 .vierkant .tekstinvakjes {
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
-.paragraaf4 {
-    margin-top: 10rem;
-}
-
-
-.paragraaf4 .vierkant. tekstinvakjes {
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
-
-/*.paragraaf4 .titel1 {*/
-/*    !*border: 1px solid purple;*!*/
-/*    margin-top: 6rem;*/
-/*    text-transform: uppercase;*/
-/*    padding: 0.5rem;*/
-/*    text-align: center;*/
+/*.vakjes:hover {*/
+/*    transition: 2s;*/
+/*    transform: scale(1.2);*/
+/*    cursor: pointer;*/
+/*    height: auto;*/
 /*}*/
 
-.tekstinvakjes {
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
 
+.paragraaf4 {
+    /*border: 1px solid lightslategray;*/
+    margin: 4rem 0.5rem 4rem 0.5rem;
 }
+
+
+
+.paragraaf4 .tekstinvakjes {
+    text-align: center;
+    text-transform: uppercase;
+}
+    /*text-transform: uppercase;*/
+    /*text-align: center;*/
+    /*font-weight: bold;*/
+    /*border: 1px solid blueviolet;*/
+    /*justify-content: center;*/
+    /*font-size: 22px;*/
+    /*padding: 1rem;*/
+    /*margin: 0px 0.5rem 5px 0.5rem;*/
+    /*max-width: 300px;*/
+    /*border-radius: 0.5rem;*/
+
+
+/*}*/
 
 .paragraaf5 {
     text-align: center;
 
 }
 
-.paragraaf5 .titel1 {
+.paragraaf5 {
     /*border: 1px solid purple;*/
-    margin-top: 6rem;
-    margin-bottom: 0;
+    margin: 0.5rem;
+}
+
+.paragraaf5 .titel1 {
+    margin: 4rem 3rem 0 3rem;
     text-transform: uppercase;
-    /*padding: 0.5rem;*/
     text-align: center;
+    /*border: 1px solid red;*/
 }
 
 .video {
-    justify-items: center;
-    padding-bottom: 50px;
-    border-radius: 10px;
+    align-content: center;
+    /*border: 1px solid green;*/
+    padding: 0.5rem 0.5rem 50px 0.5rem;
+    display: flex;
+    justify-content: center;
    }
+
 
 /*footer*/
 footer {
@@ -461,7 +471,48 @@ th.dag {
 
 
 
-@media (min-width: 450px) {
+
+@media (min-width: 400px) {
+
+    .vierkant {
+        display: grid;
+        /*border: 1px solid green;*/
+        margin: 0.25rem 1rem;
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 120px;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+
+    .vakjes {
+        border-radius: 0.5rem;
+        grid-column: span 1;
+        grid-row: span 1;
+        align-items: center;
+        display: grid;
+        gap: 0.5rem 1rem;
+        justify-items: stretch;
+
+    }
+
+    .vakjes:hover {
+        transition: 2s;
+        transform: scale(1.2);
+        cursor: pointer;
+        height: auto;
+    }
+
+
+
+}
+
+
+
+
+
+@media (min-width: 700px) {
     body {
         background-color: lightpink;
     }
