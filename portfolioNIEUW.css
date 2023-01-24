@@ -20,8 +20,6 @@ img {
 
 #top {
     position: relative;
-    max-width: 1200px;
-    margin: auto 0 auto;
     justify-content: center;
 }
 
@@ -38,9 +36,8 @@ nav ul {
     background-color: dimgrey;
     justify-content: center;
     padding: 1rem;
-    border: 2rem;
     border-radius: 0.5rem;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 nav ul li {
@@ -49,7 +46,7 @@ nav ul li {
 
 a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     text-transform: uppercase;
     color: white;
 }
@@ -128,7 +125,7 @@ hr {
 }
 
 .paragraaf1 {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0 2rem 0 2rem;
 }
 
@@ -156,11 +153,11 @@ hr {
 }
 
 .paragraaf2 .teamfoto {
-    /*border: 1px solid green;*/
-    max-width: 310px;
+    /*border: 1px solid orange;*/
+    width: 90%;
     border-radius: 0.5rem;
     text-align: center;
-    padding: 0;
+    /*padding: 0;*/
 }
 
 .paragraaf2 .titel1 {
@@ -170,8 +167,6 @@ hr {
     padding: 0.5rem;
 
 }
-
-
 
 
 .paragraaf3 {
@@ -197,33 +192,19 @@ hr {
     /*margin-left: 1rem;*/
     gap: 0.5rem;
     margin: 0 2rem 0 2rem;
-
-
-
-/*    grid-template-columns: repeat(2, 1fr);*/
-/*    grid-template-rows: 120px;*/
-/*    gap: 0.5rem;*/
-/*    align-items: center;*/
 }
-
 
 .vakjes {
     border-radius: 0.5rem;
     grid-column: span 1;
     grid-row: span 1;
-    align-items: center;
+    /*align-items: center;*/
     display: grid;
     gap: 2rem;
     justify-items: stretch;
 
 }
 
-/*.vakjes:hover {*/
-/*    transition: 2s;*/
-/*    transform: scale(1.2);*/
-/*    cursor: pointer;*/
-/*    height: auto;*/
-/*}*/
 
 
 .paragraaf4 {
@@ -509,9 +490,64 @@ th.dag {
 
 @media (min-width: 600px) {
 
-    body {
-        /*background-color: rgba(140,45,202,0.27);*/
-        margin: 0 200px;
+    nav ul {
+        /*border: 1px solid red;*/
+        background-color: white;
+        display: flex;
+        position: fixed;
+        width: 100%;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        /*background-color: white;*/
+        color: dimgrey;
+    }
+
+    ul li a {
+        color: dimgrey;
+        padding: 6rem;
+        /*border: 1px solid peachpuff;*/
+    }
+
+    nav .grow {
+        display: block;
+    }
+
+    #icons {
+        position: absolute;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    #icons {
+        position: absolute;
+        top: 10rem;
+        right: 0.5rem;
+        display: flex;
+        gap: 0.5rem;
+        /*border: solid;*/
+        justify-content: right;
+    }
+
+    #icons a {
+        color: black;
+        font-size: 28px;
+    }
+
+    #icons a:hover {
+        transition: 1s;
+        color: dimgrey;
+        cursor: pointer;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+    }
+
+    button:hover {
+        background-color: white;
+        color: dimgrey;
     }
 
     .paragraaf1 {
@@ -519,6 +555,7 @@ th.dag {
         display: flex;
         flex-direction: row;
         padding: 0.5rem;
+        padding-top: 180px;
 
     }
 
@@ -540,6 +577,40 @@ th.dag {
 
     }
 
+    .paragraaf2 {
+        margin: 0 150px;
+        display: flex;
+        padding: 2rem;
+        gap: 2rem;
+        flex-direction: column;
+      }
+
+    .titel1 {
+        margin-top: 0;
+        font-size: 30px;
+
+    }
+
+    .teamfoto {
+        width: 100%;
+        position: center;
+    }
+
+    .tekstinvakjes {
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .paragraaf3 {
+        margin: 300px 150px 0 150px;
+
+    }
+
+
+    .paragraaf4{
+        margin: 300px 150px 0 150px;
+    }
+
 
 
     .vierkant {
@@ -548,11 +619,10 @@ th.dag {
         margin: 0.25rem 1rem;
 
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 120px;
-        gap: 0.5rem;
+        grid-template-rows: 580px;
+        gap: 0.20rem 0.5rem;
         align-items: center;
     }
-
 
     .vakjes {
         border-radius: 0.5rem;
@@ -572,59 +642,6 @@ th.dag {
         height: auto;
     }
 
-    nav ul {
-        flex-direction: row;
-        gap: 2rem;
-        align-items: center;
-        background-color: white;
-        color: dimgrey;
-        border-radius: 0;
-    }
-
-    ul li a {
-        color: dimgrey;
-    }
-
-    nav .grow {
-        display: block;
-    }
-
-    #icons {
-        position: absolute;
-        display: flex;
-        gap: 0.5rem;
-    }
-
-    #icons {
-        position: absolute;
-        top: 1rem;
-        right: 0.5rem;
-        display: flex;
-        gap: 0.5rem;
-        /*border: solid;*/
-        justify-content: right;
-    }
-
-    #icons a {
-        color: black;
-        font-size: 24px;
-    }
-
-    #icons a:hover {
-        transition: 1s;
-        color: dimgrey;
-        cursor: pointer;
-    }
-
-    button {
-        background-color: black;
-        color: white;
-    }
-
-    button:hover {
-        background-color: white;
-        color: dimgrey;
-    }
 
 
 
