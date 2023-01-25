@@ -8,30 +8,47 @@
 </head>
 
 <body>
-<main>
-    <h1>OOPS!</h1>
-    <h2>404 - This Page can't be found</h2>
-</main>
-</body>
-
-
-
-<footer>
-    <div class="gegevens">
-        <div class="adres"> Oeverstraat 1 bus 1.01<br>
-            3500 Hasselt <br>
-            geerskim@yahoo.com <br>
-            +32 (0) 474 22 18 77 <br></div>
-        <div class="logodanssportvlaanderen">
-            <img src="assets/logodanssportvlaanderen.png" alt="logodanssportvlaanderen"></div>
-    </div>
-
-    <div class="persoonlijk"> © Urban Dancing School Jedagro - Lore Schrooten - r0374644@student.thomasmore.be
-</footer>
+        <div class="overlay">
+             <div class="background-image">
+                 <h1> ERROR 404 </h1>
+                 <ul><a href="http://localhost:63342/portfolio/index.html"> <button> Click here to start dancing again! </button> </a></ul>
+             </div>
+        </div>
 
 
 </body>
-</html>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    button {
+        border: 1px solid white;
+    }
+    .overlay {
+        background-image: url(assets/404.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    .background-image {
+        width: 100%;
+        height: 100%;
+        font-size: 26px;
+        color: rgba(255, 0, 0, 0.57);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5;
+
+    }
+</style>
+
 
 
 </html>
