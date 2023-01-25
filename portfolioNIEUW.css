@@ -6,8 +6,8 @@
 
 html {
     font-family: "Rubik", "Microsoft Sans Serif", serif;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 2rem;
     background-color: white;
 }
 
@@ -160,11 +160,12 @@ hr {
     /*padding: 0;*/
 }
 
-.paragraaf2 .titel1 {
+.titel1 {
     /*border: 1px solid blue;*/
     margin: 0 30px 0 30px;
     text-transform: uppercase;
     padding: 0.5rem;
+
 
 }
 
@@ -357,7 +358,6 @@ hr {
 }
 
 .h2danssoort {
-    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     padding-top: 1rem;
@@ -402,7 +402,6 @@ hr {
 }
 
 .h2lesrooster {
-    font-size: 20px;
     text-align: center;
     padding: 2rem;
 }
@@ -446,7 +445,6 @@ th.dag {
 
 h2 {
     /*border: 1px solid mediumpurple;*/
-    font-size: 20px;
     text-transform: uppercase;
     padding: 1rem;
     text-align: center;
@@ -490,7 +488,6 @@ h2 {
 .teams {
     margin: 0 20px 0 20px;
     padding-top: 1rem;
-    font-size: 20px;
     line-height: 2rem;
 }
 
@@ -636,7 +633,7 @@ h2 {
         margin-top: 0;
         font-size: 30px;
         line-height: 3rem;
-
+        text-align: center;
     }
 
     .teamfoto {
@@ -709,13 +706,13 @@ h2 {
 
 .h2wedstrijdteams {
     position: center;
+    text-align: center;
 }
 
 .dansaanbod {
     margin: 0 150px;
     text-indent: 0;
     justify-content: stretch;
-    font-size: 20px;
     line-height: 2rem;
 
 }
@@ -793,7 +790,6 @@ hr {
 
 .h1tekst {
     margin: 0 150px;
-    font-size: 20px;
     padding: 1rem;
     line-height: 2rem;
 }
@@ -819,7 +815,6 @@ text-align: left;
 }
 
 .contact {
-    font-size: 20px;
     line-height: 2rem;
     margin-left: 170px;
 }
