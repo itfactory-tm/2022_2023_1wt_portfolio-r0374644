@@ -152,9 +152,9 @@ hr {
     padding: 6rem 0 6rem 0;
 }
 
-.paragraaf2 .teamfoto {
+.teamfoto {
     /*border: 1px solid orange;*/
-    max-width: 310px;
+    max-width: 80%;
     border-radius: 0.5rem;
     text-align: center;
     /*padding: 0;*/
@@ -278,7 +278,7 @@ hr {
 
 
 .persoonlijk {
-    /*border: 1px solid black;*/
+    border: 1px solid green;
     text-align: center;
     font-size: 8px;
     background-color: rgba(0, 0, 0, 0.9);
@@ -286,7 +286,7 @@ hr {
 }
 
 .gegevens {
-    /*border: 1px solid black;*/
+    border: 1px solid orange;
     background-color: dimgrey;
     display: flex;
     /*justify-content: center;*/
@@ -431,7 +431,32 @@ table, th, tr, td {
 
 th.dag {
     font-weight: bold;
-    backgroundg-color: rgba(47, 219, 45, 0.27);
+    background-color: rgba(47, 219, 45, 0.27);
+}
+
+.contact {
+    display: flex;
+    /*border: 1px solid orangered;*/
+    padding: 1rem;
+    justify-content: center;
+    text-align: left;
+
+}
+
+h2 {
+    /*border: 1px solid mediumpurple;*/
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.titeldanszalen {
+    /*border: 1px solid mediumspringgreen;*/
+    justify-content: flex-start;
+    text-decoration: none;
+    line-height: 2rem;
 }
 
 .h1audities {
@@ -499,6 +524,11 @@ th.dag {
 
 
 
+
+
+
+
+
 @media (min-width: 600px) {
 
     nav ul {
@@ -508,7 +538,7 @@ th.dag {
         position: fixed;
         width: 100%;
         flex-direction: row;
-        gap: 2rem;
+        /*gap: 1rem;*/
         align-items: center;
         /*background-color: white;*/
         color: dimgrey;
@@ -516,7 +546,7 @@ th.dag {
 
     ul li a {
         color: dimgrey;
-        padding: 6rem;
+        padding: 1rem;
         /*border: 1px solid peachpuff;*/
     }
 
@@ -554,6 +584,8 @@ th.dag {
     button {
         background-color: black;
         color: white;
+        font-size: 18px;
+        padding: 0.5rem;
     }
 
     button:hover {
@@ -589,6 +621,7 @@ th.dag {
     }
 
     .paragraaf2 {
+        /*border: 1px solid greenyellow;*/
         margin: 0 150px;
         display: block;
         flex-direction: column;
@@ -599,30 +632,31 @@ th.dag {
     .titel1 {
         margin-top: 0;
         font-size: 30px;
+        line-height: 3rem;
 
     }
 
     .teamfoto {
-        max-width: 800px;
-        float: right;
+        width: 100%;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
 
     }
 
     .paragraaf3 {
-        margin-top: 500px;
+        /*border: 1px solid greenyellow;*/
+        margin: 100px 150px;
     }
 
-
-
-
-
-
-
-
+    .tekstinvakjes {
+        font-size: 40px;
+        line-height: 3.5rem;
+    }
 
     .vierkant {
         display: grid;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
         margin: 0.25rem 1rem;
 
         grid-template-columns: repeat(2, 1fr);
@@ -638,7 +672,7 @@ th.dag {
         grid-row: span 1;
         align-items: center;
         display: grid;
-        gap: 0.5rem 1rem;
+        gap: 1rem 1rem;
         justify-items: stretch;
 
     }
@@ -650,11 +684,77 @@ th.dag {
         height: auto;
     }
 
+.paragraaf4 {
+    margin: 100px 150px;
+}
+
+.persoonlijk {
+    padding: 1rem;
+    font-size: 18px;
+}
+.h1dansaanbod {
+    padding-top: 200px;
+}
+
+.h2danssoort {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.dansaanbod {
+    margin: 0 150px;
+    text-indent: 0;
+    justify-content: stretch;
+
+}
+
+.fotocontainer {
+    /*text-align: left;*/
+    margin-left: 150px;
+}
+.jeddagroteam2023 {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.h1team {
+    padding-top: 150px;
+}
+
+.teams {
+    margin: 0 150px;
 
 
+}
 
+.vast {
+   padding: 2rem;
+}
 
+.assistenten {
+    padding: 4rem 2rem;
+}
 
+.lesgevers {
+   text-align: center;
+    /*border: 1px solid green;*/
+}
+
+.assistenten {
+    margin: auto;
+}
+
+.lesgevers img  {
+    border-radius: 5rem;
+    gap: 1rem;
+    width: 70%;
+}
+
+.assistenten img {
+    border-radius: 5rem;
+    gap: 1rem;
+    width: 70%;
+}
 
 
 }
