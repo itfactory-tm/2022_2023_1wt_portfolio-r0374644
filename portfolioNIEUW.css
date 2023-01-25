@@ -180,18 +180,17 @@ hr {
 .paragraaf3 .tekstinvakjes {
     text-align: center;
     text-transform: uppercase;
-    margin: 0 30px 0 30px;
+
 }
 
 .vierkant {
     display: grid;
-    /*border: 1px solid green;*/
-    /*margin-top: 0.25rem;*/
-    /*margin-right: 1rem;*/
-    /*margin-bottom: 0.25rem;*/
-    /*margin-left: 1rem;*/
+    grid-template-columns: 500px 15px 100px 15px;
+    grid-template-rows: auto 15px auto 15px;
+    border: 1px solid green;
     gap: 0.5rem;
-    margin: 0 2rem 0 2rem;
+    padding-top: 0;
+
 }
 
 .vakjes {
@@ -250,16 +249,18 @@ hr {
     margin: 4rem 3rem 0 3rem;
     text-transform: uppercase;
     text-align: center;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 .video {
-    align-content: center;
-    /*border: 1px solid green;*/
+    border: 1px solid green;
     padding: 0.5rem 0.5rem 50px 0.5rem;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
+    display: block;
+    /*max-width: 280px;*/
+    height: auto;
+    margin: 0 auto;
+
+
    }
 
 
@@ -381,6 +382,7 @@ hr {
 /*tekstopmaak lesrooster*/
 
 .h1lesrooster {
+    border: 1px solid red;
     font-size: 28px;
     text-align: center;
     padding: 2rem;
@@ -394,6 +396,7 @@ hr {
     font-size: 20px;
     text-align: center;
     padding: 2rem;
+    border: 1px solid blue;
 }
 
 .h2tekst {
@@ -497,7 +500,7 @@ th.dag {
         position: fixed;
         width: 100%;
         flex-direction: row;
-        gap: 2rem;
+        /*gap: 2rem;*/
         align-items: center;
         /*background-color: white;*/
         color: dimgrey;
@@ -505,7 +508,7 @@ th.dag {
 
     ul li a {
         color: dimgrey;
-        padding: 6rem;
+        padding: 3rem;
         /*border: 1px solid peachpuff;*/
     }
 
@@ -598,40 +601,50 @@ th.dag {
 
     .tekstinvakjes {
         padding: 0;
-        font-size: 40px;
+        line-height: 2.5rem;
+        font-size: 20px;
     }
 
     .paragraaf3 {
-        margin: 300px 150px 0 150px;
+        margin: 0 150px 0 150px;
 
     }
 
 
     .paragraaf4{
-        margin: 300px 150px 0 150px;
+        margin: 0 150px 0 150px;
     }
+
+    .paragraaf4 .tekstinvakjes {
+        line-height: 3rem;
+    }
+
+
+
 
 
 
     .vierkant {
         display: grid;
         /*border: 1px solid green;*/
-        margin: 0.25rem 1rem;
+        /*margin: 0.25rem 1rem;*/
 
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 580px;
-        gap: 0.20rem 0.5rem;
+        grid-template-rows: auto;
+        gap: 0.25rem 0.5rem;
         align-items: center;
+        column-gap: 1rem;
+        row-gap: 1rem;
     }
 
     .vakjes {
         border-radius: 0.5rem;
         grid-column: span 1;
         grid-row: span 1;
-        align-items: center;
         display: grid;
-        gap: 0.5rem 1rem;
-        justify-items: stretch;
+        /*gap: 0.5rem 1rem;*/
+        /*justify-items: stretch;*/
+        align-self: stretch;
 
     }
 
@@ -642,13 +655,38 @@ th.dag {
         height: auto;
     }
 
+.video {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
 
+.h1dansaanbod{
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
 
+.dansaanbod {
+    margin: 0 150px;
+    text-indent: 0;
+}
 
+.fotocontainer {
+    justify-content: center;
+}
+.h1lesrooster {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
 
+.h1tekst{
+    padding-top: 50px;
 
+}
 
-
+.tabel {
+    max-width: 100%;
+}
 }
 
 
