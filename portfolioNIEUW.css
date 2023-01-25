@@ -134,7 +134,7 @@ hr {
     justify-content: center;
 }
 
-.paragraaf1 .tekst1 {
+.tekst1 {
     /*border: 1px solid lightseagreen;*/
     text-indent: 15px;
     align-items: center;
@@ -143,7 +143,7 @@ hr {
 }
 
 .paragraaf2 {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px grey;
     text-align: center;
@@ -152,16 +152,16 @@ hr {
     padding: 6rem 0 6rem 0;
 }
 
-.paragraaf2 .teamfoto {
-    border: 1px solid orange;
+.teamfoto {
+    /*border: 1px solid orange;*/
     max-width: 310px;
     border-radius: 0.5rem;
-    text-align: center;
+    justify-content: center;
     /*padding: 0;*/
 }
 
-.paragraaf2 .titel1 {
-    border: 1px solid blue;
+.titel1 {
+    /*border: 1px solid blue;*/
     margin: 0 30px 0 30px;
     text-transform: uppercase;
     padding: 0.5rem;
@@ -179,10 +179,13 @@ hr {
     box-shadow: 1px 1px 5px grey; rgba(128, 128, 128, 0.43);
 }
 
-.paragraaf3 .tekstinvakjes {
+.tekstinvakjes {
+    /*border: 1px solid red;*/
     text-align: center;
     text-transform: uppercase;
-    margin: 0 30px 0 30px;
+    margin: 0 50px 0 50px;
+    font-size: 40px;
+    padding: 2rem;
 }
 
 .vierkant {
@@ -225,27 +228,6 @@ hr {
     padding: 6rem 0 6rem 0;
 }
 
-
-
-.paragraaf4 .tekstinvakjes {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 1.5rem 30px 1.5rem 30px;
-}
-    /*text-transform: uppercase;*/
-    /*text-align: center;*/
-    /*font-weight: bold;*/
-    /*border: 1px solid blueviolet;*/
-    /*justify-content: center;*/
-    /*font-size: 22px;*/
-    /*padding: 1rem;*/
-    /*margin: 0px 0.5rem 5px 0.5rem;*/
-    /*max-width: 300px;*/
-    /*border-radius: 0.5rem;*/
-
-
-/*}*/
-
 .paragraaf5 {
     text-align: center;
 
@@ -256,8 +238,8 @@ hr {
     margin: 1.5rem;
 }
 
-.paragraaf5 .titel1 {
-    margin: 4rem 3rem 0 3rem;
+.titel1 {
+    margin: 10px 0;
     text-transform: uppercase;
     text-align: center;
     /*border: 1px solid red;*/
@@ -266,10 +248,10 @@ hr {
 .video {
     align-content: center;
     /*border: 1px solid green;*/
-    padding: 0.5rem 0.5rem 50px 0.5rem;
+    /*padding: 2rem 0.5rem 50px 0.5rem;*/
     display: flex;
     justify-content: center;
-    margin-bottom: 0;
+    margin-top: 30px;
 
    }
 
@@ -431,7 +413,7 @@ table, th, tr, td {
 
 th.dag {
     font-weight: bold;
-    background-color: rgba(47, 219, 45, 0.27);
+    /*background-color: rgba(47, 219, 45, 0.27);*/
 }
 
 .h1audities {
@@ -564,10 +546,9 @@ th.dag {
     .paragraaf1 {
         /*border: 5px solid red;*/
         display: flex;
-        flex-direction: row;
+        /*flex-direction: column;*/
         padding: 0.5rem;
         padding-top: 180px;
-
     }
 
     .tekst1 {
@@ -592,7 +573,7 @@ th.dag {
         margin: 0 150px;
         display: block;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
 
     }
 
@@ -603,13 +584,15 @@ th.dag {
     }
 
     .teamfoto {
-        max-width: 800px;
-        float: right;
-
+        width: 100%;
+        height: auto;
+        /*justify-content: center;*/
+        margin: 50px;
+        border: 2px solid orange;
     }
 
     .paragraaf3 {
-        margin-top: 500px;
+        margin-top: 100px;
     }
 
 
@@ -622,7 +605,7 @@ th.dag {
 
     .vierkant {
         display: grid;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
         margin: 0.25rem 1rem;
 
         grid-template-columns: repeat(2, 1fr);
@@ -650,7 +633,9 @@ th.dag {
         height: auto;
     }
 
+    footer {
 
+    }
 
 
 
