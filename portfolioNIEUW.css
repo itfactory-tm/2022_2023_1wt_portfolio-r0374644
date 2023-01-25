@@ -216,7 +216,7 @@ hr {
     border: 1px solid lightgrey;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px grey;
-    margin: 3rem 2rem 3rem 2rem;
+    /*margin: 3rem 2rem 3rem 2rem;*/
     padding: 6rem 0 6rem 0;
 }
 
@@ -261,7 +261,7 @@ hr {
 .video {
     align-content: center;
     /*border: 1px solid green;*/
-    padding: 0.5rem 0.5rem 50px 0.5rem;
+    padding: 0.5rem 0.5rem 200px 0.5rem;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
@@ -273,7 +273,6 @@ hr {
 
 
 .persoonlijk {
-    border: 1px solid green;
     text-align: center;
     font-size: 8px;
     background-color: rgba(0, 0, 0, 0.9);
@@ -281,7 +280,6 @@ hr {
 }
 
 .gegevens {
-    border: 1px solid orange;
     background-color: dimgrey;
     display: flex;
     /*justify-content: center;*/
@@ -296,36 +294,8 @@ hr {
     margin: auto;
     padding: 1rem;
 }
-/*    color: whitesmoke;*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*    background-color: dimgrey;*/
-/*    height: 150px;*/
-/*    !*border: 1px solid lawngreen;*!*/
-/*    border-radius: 0.5rem;*/
-/*}*/
 
-/*.gegevens {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    !*border: 1px solid yellow;*!*/
-/*    align-items: center;*/
-/*}*/
 
-/*.adres {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-items: center;*/
-/*    !*border: 1px solid red;*!*/
-/*    font-size: 10px;*/
-/*    margin-left: 30px;*/
-
-/*}*/
-
-.logodanssportvlaanderen {
-    /*border: 1px solid orange;*/
-    margin-right: 50px;
-}
 
 /*.persoonlijk {*/
 /*    !*display: flex;*!*/
@@ -533,16 +503,13 @@ h2 {
         position: fixed;
         width: 100%;
         flex-direction: row;
-        /*gap: 1rem;*/
         align-items: center;
-        /*background-color: white;*/
         color: dimgrey;
     }
 
     ul li a {
         color: dimgrey;
         padding: 1rem;
-        /*border: 1px solid peachpuff;*/
     }
 
     nav .grow {
@@ -561,7 +528,6 @@ h2 {
         right: 0.5rem;
         display: flex;
         gap: 0.5rem;
-        /*border: solid;*/
         justify-content: right;
     }
 
@@ -589,7 +555,6 @@ h2 {
     }
 
     .paragraaf1 {
-        /*border: 5px solid red;*/
         display: flex;
         flex-direction: row;
         padding: 0.5rem;
@@ -598,7 +563,6 @@ h2 {
     }
 
     .tekst1 {
-        /*border: 1px solid green;*/
         max-width: 800px;
         font-size: 22px;
         margin: auto;
@@ -608,7 +572,6 @@ h2 {
     }
 
     .logo  {
-        /*border: 1px solid yellow;*/
         max-width: 300px;
         justify-content: center;
         margin: auto;
@@ -616,7 +579,6 @@ h2 {
     }
 
     .paragraaf2 {
-        /*border: 1px solid greenyellow;*/
         margin: 0 150px;
         display: block;
         flex-direction: column;
@@ -640,21 +602,17 @@ h2 {
     }
 
     .paragraaf3 {
-        /*border: 1px solid greenyellow;*/
         margin: 100px 150px;
     }
 
     .tekstinvakjes {
-        /*border: 1px solid green;*/
         font-size: 30px;
         line-height: 3.5rem;
     }
 
     .vierkant {
         display: grid;
-        /*border: 1px solid green;*/
         margin: 0.25rem 1rem;
-
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         gap: 0.5rem;
@@ -668,9 +626,7 @@ h2 {
         grid-row: span 1;
         align-items: center;
         display: grid;
-        gap: 1rem 1rem;
-        justify-items: stretch;
-
+        gap: 0.5rem;
     }
 
     .vakjes:hover {
@@ -798,12 +754,16 @@ hr {
     padding-top: 200px;
 }
 
-table {
-    width: 60%;
-
+table, th, tr, td {
+    width: 70%;
+    font-size: 24px;
 }
 
-h2 {
+th {
+    width: 20%;
+}
+
+    h2 {
 text-align: left;
     margin: 0 150px;
 }
@@ -813,8 +773,36 @@ text-align: left;
     margin-left: 170px;
 }
 
+    .persoonlijk {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
 
+    footer {
+        width: auto;
+    }
+    .gegevens {
+        background-color: #ffffff;
+        display: flex;
+        border: 1px solid rgba(128, 128, 128, 0.38);
+        box-shadow: 1px 1px 5px grey;
 
+    }
 
+    .adres {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        align-content: center;
+        color: black;
+        /*border: 1px solid green;*/
+        line-height: 1.5;
+        margin: auto;
+    }
+
+    .logodanssportvlaanderen {
+        width: 40%;
+        margin: auto;
+    }
 }
 
