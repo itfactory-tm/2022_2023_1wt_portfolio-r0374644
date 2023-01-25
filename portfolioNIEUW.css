@@ -435,7 +435,7 @@ th.dag {
 }
 
 .contact {
-    display: flex;
+    /*display: flex;*/
     /*border: 1px solid orangered;*/
     padding: 1rem;
     justify-content: flex-start;
@@ -478,7 +478,7 @@ h2 {
 .h1team {
     font-size: 28px;
     text-align: center;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .jeddagroteam2023 {
@@ -490,6 +490,8 @@ h2 {
 .teams {
     margin: 0 20px 0 20px;
     padding-top: 1rem;
+    font-size: 20px;
+    line-height: 2rem;
 }
 
 .teamstitel {
@@ -499,7 +501,7 @@ h2 {
 }
 
 .vast {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     padding: 0.5rem;
 
@@ -702,6 +704,7 @@ h2 {
 .h2danssoort {
     text-align: left;
     margin-left: 150px;
+    font-size: 30px;
 }
 
 .h2wedstrijdteams {
@@ -712,6 +715,8 @@ h2 {
     margin: 0 150px;
     text-indent: 0;
     justify-content: stretch;
+    font-size: 20px;
+    line-height: 2rem;
 
 }
 
@@ -724,6 +729,7 @@ h2 {
 .dansaanbodwedstrijd{
     text-align: center;
     padding: 1rem 3rem;
+    font-size: 20px;
 }
 .dansaanbodfoto {
     width: 100%;
@@ -735,7 +741,11 @@ h2 {
 }
 
 .h1team {
-    padding-top: 150px;
+    padding-top: 200px;
+}
+
+hr {
+    display: none;
 }
 
 .teams {
@@ -776,27 +786,42 @@ h2 {
 }
 
 .h1audities {
-    padding-top: 150px;
+    padding-top: 200px;
 
 }
 
 
 .h1tekst {
     margin: 0 150px;
+    font-size: 20px;
+    padding: 1rem;
+    line-height: 2rem;
 }
 
 .auditiesfoto {
     width: 100%;
+    margin-top: 50px;
 
 }
 
 .h1lesrooster {
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 table {
     width: 60%;
 
+}
+
+h2 {
+text-align: left;
+    margin: 0 150px;
+}
+
+.contact {
+    font-size: 20px;
+    line-height: 2rem;
+    margin-left: 170px;
 }
 
 
