@@ -6,8 +6,8 @@
 
 html {
     font-family: "Rubik", "Microsoft Sans Serif", serif;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 2rem;
     background-color: white;
 }
 
@@ -150,6 +150,7 @@ hr {
     /*margin-top: 4rem;*/
     margin: 3rem 2rem 3rem 2rem;
     padding: 6rem 0 6rem 0;
+    justify-content: center;
 }
 
 .teamfoto {
@@ -162,9 +163,9 @@ hr {
 
 .paragraaf2 .titel1 {
     /*border: 1px solid blue;*/
-    margin: 0 30px 0 30px;
+    margin: 0 90px;
     text-transform: uppercase;
-    padding: 0.5rem;
+    /*padding-left: 4rem;*/
 
 }
 
@@ -456,6 +457,7 @@ h2 {
 .titeldanszalen {
     /*border: 1px solid mediumspringgreen;*/
     justify-content: flex-start;
+
     text-decoration: none;
     line-height: 2rem;
 }
@@ -608,7 +610,6 @@ h2 {
     .tekst1 {
         /*border: 1px solid green;*/
         max-width: 800px;
-        font-size: 22px;
         margin: auto;
         line-height: 1.5;
 
@@ -629,6 +630,8 @@ h2 {
         display: block;
         flex-direction: column;
         justify-content: center;
+
+        }
 
     }
 
@@ -709,35 +712,32 @@ h2 {
 
 .h2wedstrijdteams {
     position: center;
+    margin: 30px 450px;
 }
 
 .dansaanbod {
     margin: 0 150px;
     text-indent: 0;
     justify-content: stretch;
-    font-size: 20px;
     line-height: 2rem;
 
 }
 
 .fotocontainer {
-    /*text-align: left;*/
-    /*margin-left: 150px;*/
     justify-content: center;
 }
 
 .dansaanbodwedstrijd{
     text-align: center;
     padding: 1rem 3rem;
-    font-size: 20px;
 }
 .dansaanbodfoto {
-    width: 100%;
+    width: 80%;
 }
 
 .jeddagroteam2023 {
     text-align: left;
-    margin-left: 150px;
+    margin-left: 130px;
 }
 
 .h1team {
@@ -793,7 +793,6 @@ hr {
 
 .h1tekst {
     margin: 0 150px;
-    font-size: 20px;
     padding: 1rem;
     line-height: 2rem;
 }
@@ -819,7 +818,6 @@ text-align: left;
 }
 
 .contact {
-    font-size: 20px;
     line-height: 2rem;
     margin-left: 170px;
 }
